@@ -1,3 +1,17 @@
+/*
+Problem 1317: Sum of Two No-Zero Integers
+
+Description:
+Find two positive integers a and b such that a + b = n and neither contains the digit 0.
+
+Approach:
+- Loop i from 1 to n-1.
+- Check if both i and (n - i) have no zero digits.
+- Return the first valid pair.
+
+Time Complexity: O(n * log(n))
+Space Complexity: O(1)
+*/
 class PROBLEM_1317 {
 
     public int[] getNoZeroIntegers(int n) {
