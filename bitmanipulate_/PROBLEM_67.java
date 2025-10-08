@@ -19,6 +19,7 @@ Complexity:
 Time: O(max(m, n))
 
 Space: O(max(m, n))*/
+package bitmanipulate_;
 import java.util.Scanner;
 
 public class PROBLEM_67{
