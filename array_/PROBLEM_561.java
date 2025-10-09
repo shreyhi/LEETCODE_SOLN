@@ -7,7 +7,7 @@ Always keep track of the largest sum (maxSum) you’ve seen so far.
 */
 import java.util.Scanner;
 
-public class PROBLEM_53 {
+public class PROBLEM_561 {
 
     public static int maxSubArray(int[] nums) {
         int n = nums.length;
