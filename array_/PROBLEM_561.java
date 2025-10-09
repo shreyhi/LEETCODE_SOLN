@@ -1,49 +1,26 @@
-/*
-Kadane’s Algorithm is a very famous method to find the maximum sum of a contiguous subarray (a subarray means consecutive elements).
-As you move through the array:
-Keep a running sum (currentSum) of the elements.
-If currentSum ever becomes negative, it means this subarray is hurting our total — so we reset it to 0 (start a new subarray).
-Always keep track of the largest sum (maxSum) you’ve seen so far.
-*/
-import java.util.Scanner;
-
+import java.util.*;
 public class PROBLEM_561 {
-
-    public static int maxSubArray(int[] nums) {
-        int n = nums.length;
+    public static int arrayPairSum(int[] nums) {
+        Arrays.sort(nums);
         int sum = 0;
-        int maxSum = nums[0]; 
-
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < nums.length; i += 2) {
             sum += nums[i];
-
-            if (sum > maxSum) {
-                maxSum = sum;
-            }
-
-            if (sum < 0) {
-                sum = 0;
-            }
         }
-
-        return maxSum;
+        return sum;
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter number of elements: ");
-        int n = sc.nextInt();
-
-        int[] nums = new int[n];
-        System.out.println("Enter " + n + " integers:");
-        for (int i = 0; i < n; i++) {
-            nums[i] = sc.nextInt();
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter numbers separated by spaces:");
+        String[] parts = scanner.nextLine().split(" ");
+        int[] nums = new int[parts.length];
+        for (int i = 0; i < parts.length; i++) {
+            nums[i] = Integer.parseInt(parts[i]);
         }
 
-        int result = maxSubArray(nums);
-        System.out.println("Maximum Subarray Sum = " + result);
+        int result = arrayPairSum(nums);
+        System.out.println("Maximum sum of min pairs: " + result);
 
-        sc.close();
+        scanner.close();
     }
 }
