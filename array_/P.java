@@ -1,6 +1,5 @@
 import java.util.Arrays;
-import java.util.Scanner;
-
+import java.util.Scanner;2
 public class P {
     public static int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
@@ -26,3 +25,4 @@ public class P {
         scanner.close();
     }
 }
+
