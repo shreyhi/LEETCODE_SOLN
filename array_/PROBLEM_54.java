@@ -44,7 +44,7 @@ public class PROBLEM_54 {
     }
 
     public static void main(String[] args) {
-        SpiralMatrix sm = new SpiralMatrix();
+        PROMLEM_54 sm = new PROMLEM_54();
         int[][] matrix = {
             {1, 2, 3},
             {4, 5, 6},
