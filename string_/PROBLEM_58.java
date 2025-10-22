@@ -1,4 +1,4 @@
-public class Solution {
+public class problem_58 {
     public int lengthOfLastWord(String s) {
         int length = 0;
         int i = s.length() - 1;
@@ -8,7 +8,7 @@ public class Solution {
             i--;
         }
 
-        // Step 2: Count characters in the last word
+        // Step 2: Count the characters of the last word
         while (i >= 0 && s.charAt(i) != ' ') {
             length++;
             i--;
@@ -19,7 +19,7 @@ public class Solution {
 
     // Main method for testing
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        problem_58 solution = new problem_58();
 
         // Test cases
         String s1 = "Hello World";
