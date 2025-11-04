@@ -1,4 +1,4 @@
-// LeetCode 104: Max Depth of Binary Tree (with user input)
+// LeetCode 104: Max Depth of Binary Tree 
 
 import java.util.*;
 
