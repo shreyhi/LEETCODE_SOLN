@@ -1,4 +1,4 @@
-package linkedlist;
+package linkedlist_;
 
 public class PROBLEM_704 {
    
