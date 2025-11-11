@@ -44,7 +44,7 @@ public class PROBLEM_54 {
     }
 
     public static void main(String[] args) {
-        PROMLEM_54 sm = new PROMLEM_54();
+        PROBLEM_54 sm = new PROBLEM_54();
         int[][] matrix = {
             {1, 2, 3},
             {4, 5, 6},

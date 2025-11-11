@@ -1,4 +1,4 @@
-package Math_;
+package MATH;
 
 public class PROBLEM_29 {
 
