@@ -10,7 +10,6 @@
  */
 import java.util.*;
 public class Solution {
-
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         // Map from value in nums2 -> its next greater element (or absent if none)
         Map<Integer, Integer> nextGreater = new HashMap<>();
