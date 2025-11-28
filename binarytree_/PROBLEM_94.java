@@ -9,7 +9,7 @@ Pop a node from the stack.
 
 Add its value to the result list.
 
-Move to its right child.
+Move to its right childs.
 
 Repeat until both the current node is null and the stack is empty.*/
 import java.util.*;
