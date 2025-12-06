@@ -22,5 +22,6 @@ public class pbo {
 
         int index = strStr(haystack, needle);
         System.out.println("First occurrence index = " + index);
+         System.out.println("First occurrence index = " + index);
 }
 }
