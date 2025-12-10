@@ -26,6 +26,7 @@ public class pbo {
           System.out.println("First occurrence index = " + index);
 
          System.out.println("First occurrence index = " + index);
+         System.out.println("First occurrence index = " + index);
          
 }
 }
