@@ -28,6 +28,7 @@ public class problem_58 {
         String s4 = "singleword";
         String s5 = "   "; // edge case: only spaces
         // edge case: only spaces
+        // edge case: only spaces// edge case: only spaces
 
         System.out.println("Input: \"" + s1 + "\" → Output: " + solution.lengthOfLastWord(s1)); // 5
         System.out.println("Input: \"" + s2 + "\" → Output: " + solution.lengthOfLastWord(s2)); // 4
