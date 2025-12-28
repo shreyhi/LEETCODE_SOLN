@@ -36,5 +36,8 @@ public class problem_58 {
         System.out.println("Input: \"" + s3 + "\" → Output: " + solution.lengthOfLastWord(s3)); // 7
         System.out.println("Input: \"" + s4 + "\" → Output: " + solution.lengthOfLastWord(s4)); // 10
         System.out.println("Input: \"" + s5 + "\" → Output: " + solution.lengthOfLastWord(s5)); // 0
+        // edge case: only spaces// edge case: only spaces
+
+        System.out.println("Input: \"" + s1 + "\" → Output: " + solution.lengthOfLastWord(s1)); // 5
     }
 }
