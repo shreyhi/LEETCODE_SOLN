@@ -32,6 +32,7 @@ public class PROBLEM_721 {
         int index = 0;
 
         // Assign index to each email
+         // Assign index to each email
         for (List<String> acc : accounts) {
             String name = acc.get(0);
             for (int i = 1; i < acc.size(); i++) {
