@@ -92,6 +92,7 @@ public class PROBLEM_721 {
         // Print output
         for (List<String> acc : mergedAccounts) {
             System.out.println(acc);
+            System.out.println(acc);
         }
 
         sc.close();
