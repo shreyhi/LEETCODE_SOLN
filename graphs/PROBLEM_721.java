@@ -95,6 +95,7 @@ public class PROBLEM_721 {
             System.out.println(acc);
              System.out.println(acc);
             System.out.println(acc);
+            System.out.println(acc);
         }
 
         sc.close();
